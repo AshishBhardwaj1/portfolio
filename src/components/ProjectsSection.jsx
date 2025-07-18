@@ -7,8 +7,8 @@ const projects = [
     description: "An expense tracker page app using React and chakra UI.",
     image: "/projects/expense.png",
     tags: ["React", "ChakraUI"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://ashishbhardwaj1.github.io/expense-tracker/",
+    githubUrl: "https://github.com/AshishBhardwaj1/expense-tracker",
   },
   {
     id: 2,
@@ -17,8 +17,8 @@ const projects = [
       "A simple music player with Nextjs.",
     image: "/projects/music.png",
     tags: [ "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://nextjs-musicplayer.vercel.app",
+    githubUrl: "https://github.com/AshishBhardwaj1/nextjs-musicplayer",
   },
   {
     id: 3,
@@ -26,10 +26,19 @@ const projects = [
     description:
       "Food searching app using react and tailwind.",
     image: "/projects/foodzilla.png",
-    tags: ["React", "Tialwind"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Taillwind"],
+    demoUrl: "https://foodzilla-eight.vercel.app",
+    githubUrl: "https://github.com/AshishBhardwaj1/Foodzilla",
   },
+  {
+    id:4,
+    title:"chat-app",
+    description:"fullstake realtime chatting app with mern and scoket-io",
+    image:"/projects/chat app.PNG",
+    tags:["react","tailwind","node js","express js","mongodb","socket-io"],
+ demoUrl: "#",
+    githubUrl: "https://github.com/AshishBhardwaj1/fs-chat-app",
+  }
 ];
 
 export const ProjectsSection = () => {
