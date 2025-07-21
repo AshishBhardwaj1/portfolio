@@ -1,3 +1,5 @@
+
+import React from "react";
 import { Briefcase, Code, User } from "lucide-react";
 
 export const AboutSection = () => {

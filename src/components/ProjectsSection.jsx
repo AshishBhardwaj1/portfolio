@@ -1,3 +1,4 @@
+import React from "react";
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
