@@ -4,15 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "",
-  "scripts": { 
-    "dev": "vite",
- 
-      "predeploy": "npm run build && cp dist/index.html dist/404.html",
-"deploy": "gh-pages -d dist",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
+},
+
   "dependencies": {
     "@radix-ui/react-toast": "^1.2.10",
     "@tailwindcss/vite": "^4.1.4",
